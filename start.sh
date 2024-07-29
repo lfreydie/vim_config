@@ -6,3 +6,4 @@ cat <<'EOF' >> ~/.zshrc
 alias nvi='docker run -it -v $PWD:/root/projet myimgnvim /root/entrypoint.sh'
 alias eoc='/tmp/dockervim/remove.sh'
 EOF
+source ~/.zshrc
